@@ -1,0 +1,10 @@
+Coursework = float(input("Please Enter CourseWork Marks: "))
+Exam = float(input("Please Enter Exam Marks: "))
+
+total = Coursework + Exam
+average = total / 2
+percentage = (total / 200) * 100
+
+print("Marks total = %.2f" % total)
+print("Marks average = %.2f" % average)
+print("Marks Percentage = %.2f" % percentage)
